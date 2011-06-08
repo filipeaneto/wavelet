@@ -47,7 +47,6 @@ void haar1(float *vec, int n, int w)
 		delete [] vecp;
 }
 
-/** The 2D Haar Transform **/
 float** haar2d(float **matrix, int rows, int cols)
 {
 	float *temp_row = new float[cols];
